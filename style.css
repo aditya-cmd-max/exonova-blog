@@ -222,3 +222,22 @@ footer {
   font-weight: 700;
   letter-spacing: 1px;
 }
+
+.blog-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.nav-btn {
+  background: #1e1e2f;
+  color: #fff;
+  padding: 0.7rem 1.2rem;
+  border-radius: 1rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.nav-btn:hover {
+  background: #333;
+}
