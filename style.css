@@ -73,3 +73,60 @@ footer {
     opacity: 1;
   }
 }
+.concept-section {
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.07);
+  padding: 2.5rem;
+  margin: 2rem auto;
+  max-width: 800px;
+  transition: all 0.3s ease-in-out;
+}
+
+.concept-section h2 {
+  font-size: 2rem;
+  color: #1e1e2f;
+  margin-bottom: 1.2rem;
+}
+
+.concept-intro {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #444;
+  margin-bottom: 1.5rem;
+}
+
+.concept-points {
+  list-style: none;
+  padding-left: 1rem;
+}
+
+.concept-points li {
+  background: #f1f5ff;
+  padding: 0.8rem 1rem;
+  margin-bottom: 0.8rem;
+  border-radius: 10px;
+  font-size: 1rem;
+  color: #333;
+  transition: transform 0.3s ease;
+}
+
+.concept-points li:hover {
+  transform: translateX(5px);
+  background-color: #e4ecff;
+}
+
+.fadeIn {
+  animation: fadeIn 1.2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
