@@ -195,3 +195,30 @@ footer {
     transform: translateY(0);
   }
 }
+
+
+.blog-header {
+  background: #1e1e2f;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 40px;
+  width: auto;
+  margin-right: 10px;
+}
+
+.brand-name {
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
