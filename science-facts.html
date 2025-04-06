@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exonova - Science Facts</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>🧪 Exonova: Amazing Science Facts</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="science-facts.html" class="active">Science Facts</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+    <input type="text" id="searchInput" placeholder="Search science facts...">
+  </header>
+
+  <main id="factsContainer">
+    <!-- Each category section -->
+    <section class="fact-section" data-topic="Space">
+      <h2>🚀 Space & Universe</h2>
+      <div class="fact-card">
+        <img src="assets/space.png" alt="Space">
+        <p>Neutron stars can spin 600 times per second.</p>
+      </div>
+      <div class="fact-card">
+        <img src="assets/space.png" alt="Space">
+        <p>The universe is around 13.8 billion years old.</p>
+      </div>
+    </section>
+
+    <section class="fact-section" data-topic="Biology">
+      <h2>🧬 Biology</h2>
+      <div class="fact-card">
+        <img src="assets/dna.png" alt="DNA">
+        <p>Your DNA can stretch from the Earth to the Sun 600 times.</p>
+      </div>
+      <div class="fact-card">
+        <img src="assets/brain.png" alt="Brain">
+        <p>The human brain generates more electricity than a light bulb.</p>
+      </div>
+    </section>
+    
+    <!-- Add more categories the same way -->
+  </main>
+</body>
+</html>
